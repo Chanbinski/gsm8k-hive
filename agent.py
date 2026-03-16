@@ -39,7 +39,7 @@ def solve(question: str) -> str:
 
     text = response.choices[0].message.content.strip()
 
-    # Try to extract answer after #### delimiter (GSM8K convention)
+    # Extract answer after #### delimiter (GSM8K convention)
     match = re.search(r'####\s*(-?\d[\d,]*\.?\d*)', text)
     if match:
         return match.group(1).replace(',', '')
