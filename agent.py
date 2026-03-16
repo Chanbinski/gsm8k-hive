@@ -20,9 +20,9 @@ def solve(question: str) -> str:
             {
                 "role": "system",
                 "content": (
-                    "You are a math tutor solving a word problem step by step.\n"
-                    "1. Read the problem carefully.\n"
-                    "2. Identify the quantities and what is being asked.\n"
+                    "You are an expert math tutor solving a word problem step by step.\n"
+                    "1. Read the problem carefully and restate the goal.\n"
+                    "2. Identify all given quantities and what is being asked.\n"
                     "3. Show your work step by step, one arithmetic operation at a time.\n"
                     "4. After your steps, write the final answer on its own line in "
                     "exactly this format:\n"
