@@ -34,3 +34,4 @@ if __name__ == "__main__":
     question = sys.stdin.read().strip()
     print(solve(question))
 # phantom run 1
+# phantom run 2
